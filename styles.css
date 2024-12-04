@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: #393939;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 450px;
+    height: 600px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: rgb(249,168,37);
+    background: linear-gradient(211deg, rgba(249,168,37,1) 0%, rgba(251,140,0,1) 100%);
+    transition: all 300ms ease;
+    cursor: pointer;
+
+}
+
+.card:hover {
+    transform: scale(1.15);
+    transition: all 300ms ease;
+}
+
+.card-top {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #000;
+}
+
+.card-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 12px;
+    color: #ffffffff;
+    
+}
+.card-description {
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 18px;
+    line-height: 27px;
+    color: rgb(231, 222, 222);
+}
+
+.email-container{
+    width: 70%;
+    padding: 10px 15px;
+    background: #393939;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffffff;
+    margin-top: 14px;
+}
+
+.tom-logo{
+    width: 150px;
+    margin-top: auto;
+}
